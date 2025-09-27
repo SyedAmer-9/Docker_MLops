@@ -26,4 +26,4 @@ ENV FLASK_APP=app.py
 # Specify the default command to run when the container starts.
 # This command starts the Flask development server.
 # '--host=0.0.0.0' makes the server accessible from outside the container.
-CMD [ "flask", "run", "--host=0.0.0.0" ]
+CMD [ "flask", "run", "--host=0.0.0.0", "--port=5001"]
